@@ -32,9 +32,9 @@ function renderToString (content) {
 app.use(async (ctx, next) => {
   ctx.ssrContext = {
     url: ctx.path + ctx.search,
-    title: '魅族科技',
-    description: '魅族科技服务端渲染',
-    keyword: '魅族,前端'
+    title: 'vue ssr',
+    description: 'vue2 ssr服务端渲染',
+    keyword: 'vue2，ssr'
   }
 
   await next()

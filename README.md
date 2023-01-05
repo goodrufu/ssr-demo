@@ -1,29 +1,6 @@
-# vue2-ssr-demo
+# ssr-demo
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 启动项目
+1. yarn
+2. yarn dev
+3. 访问本地的ip+端口（webpack打包的结果）
